@@ -1,0 +1,94 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    width: 30em;
+}
+
+.image {
+    height: 15em;
+    background-image: url("https://www.advancedsciencenews.com/wp-content/uploads/2021/08/lisa-keffer-i0kB5B9J8Ds-unsplash.jpg");
+    background-size: cover;
+}
+/*
+img {
+    width: 100%;
+    height: 100%;
+}
+*/
+div {
+    border: 0.1em solid rgb(189, 189, 189);
+    margin: 0.1em;
+}
+
+.text {
+    padding: 0em 0.6em
+}
+
+h1 {
+    font-size: 1em;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin: 0.6em 0em 0.2em 0em
+}
+
+h3 {
+    font-size: 1.1em;
+    margin: 0em;
+}
+
+.select {
+    display: flex;
+    margin: 1em 0em;
+}
+
+select {
+    margin: 0em 0.4em;
+    width: 3em;
+    height: 1.8em;
+    border-radius: 0.4em;
+}
+
+button {
+    color: white;
+    border: none;
+    width: 100%;
+    height: 2.4em;
+    border-radius: 0.2em;
+}
+
+.buttons {
+    display: flex;
+    align-content: space-evenly;
+    border: none;
+}
+
+#up1 {
+    background-color: turquoise;
+    margin-right: 0.09em;
+}
+
+#up2 {
+    background-color: skyblue;
+}
+
+#reset {
+    background-color: red;
+    margin-left: 0.09em;
+}
+
+
+
+
+.win {
+    color: greenyellow;
+}
+
+.loose {
+    color: red
+}

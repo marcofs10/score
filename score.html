@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="score.css">
+</head>
+
+<body>
+    <section>
+        <div class="image">
+            
+        </div>
+        <div class="text">
+            <h1>Ping Pong Score Keeper</h1>
+        </div>
+        <div class="text">
+            <h2><span id="pl1">0</span> to <span id="pl2">0</span></h2>
+            <h3>Use the buttons below to keep score</h3>
+            <span class="select">
+                <h3>Playing To </h3>
+                <select name="sets" id="setNum">
+                    <option value="3">3</option>
+                    <option value="5">5</option>
+                    <option value="7">7</option>
+                    <option value="9">9</option>
+                    <option value="11">11</option>
+                </select>
+            </span>
+        </div>
+        <div class="buttons">
+            <button id="up1">+1 Player One</button>
+            <button id="up2">+1 Player Two</button>
+            <button id="reset">Reset</button>
+        </div>
+    </section>
+    <script src="score.js"></script>
+</body>
+
+</html>
